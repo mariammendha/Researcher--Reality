@@ -9,7 +9,7 @@ WalkScore Api: https://www.walkscore.com/professional/walk-score-apis.php
 # Scored out of 100
 def rating(address, latitude, longitude):
     from walkscore import WalkScoreAPI
-    api_key = 'ef405a103b1eab9888e3c7886e658181'
+    api_key = '<Api Key>'
     walkscore_api = WalkScoreAPI(api_key=api_key)
     result = walkscore_api.get_score(latitude, longitude, address)
     return (result.walk_score, result.transit_score, result.bike_score)
