@@ -2,6 +2,7 @@
 Take the existing Kc_house_data.csv from MongoDb Atlas, parsing for latitude and longitude
 It then pipes this data through the WalkScore Api, generating 3 accessibility scores
 These 3 scores are then inserted into their associated rows within MongoDb
+WalkScore Api: https://www.walkscore.com/professional/walk-score-apis.php
 '''
 
 # Function returns 3 scores (Walk, Transit, Bike)
