@@ -20,7 +20,7 @@ import pymongo
 # Database connection string
 
 db = \
-    pymongo.MongoClient('mongodb+srv://admin:Password@housing-peu0h.gcp.mongodb.net/test?retryWrites=true&w=majority'
+    pymongo.MongoClient('mongodb+srv://<username>:<password>@housing-peu0h.gcp.mongodb.net/test?retryWrites=true&w=majority'
                         )
 
 # Declare collection
